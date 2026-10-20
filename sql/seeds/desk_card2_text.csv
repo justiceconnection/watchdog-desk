@@ -1,0 +1,13 @@
+agency_code,key,template,final,source
+015,title,Contracts awarded without competition,true,watchdog-cards 2.3
+015,period_complete,FY{t},true,watchdog-cards 2.3
+015,period_provisional,FY{t} (provisional),true,watchdog-cards 2.3 (final 2026-10-17)
+015,headline,"In {period}, {p} of {agency}'s new contracts above the small-purchase threshold ({n} of {N}; {d} of {D}) were awarded without competition.",true,watchdog-cards 2.3
+015,explainer,"Agencies record for each contract whether it was competed. We count new contracts marked 'not competed' or 'not available for competition'. We leave out small purchases: contracts handled under simplified procedures, or worth $250,000 or less, the federal small-purchase threshold. Contracting offices give a reason for each non-competitive award, such as a single possible supplier, urgency or utilities. These codes are as reported by the contracting office and can be wrong; they don't show intent.",true,watchdog-cards 2.3
+015,concentration_line,"The largest single award, {amount} to {recipient} ({reason}), is {share} of FY{t}'s not-competed dollars; the five largest are listed below.",true,watchdog-cards 2.1 concentration rule
+015,statutory_note,"Some sole-source awards are authorized by law, such as those to small businesses in the SBA's 8(a) program, which includes Alaska Native corporations.",true,watchdog-cards 2.1 concentration rule
+015,provisional_note,FY{t} contract data is provisional (through {through}).,true,watchdog-cards 4.6 (same wording as Card 4)
+015,flags_note,"Business categories are as reported on each contract and can overlap (a firm can be in several), so they aren't added together.",true,"Justice Connection, 2026-10-17"
+015,org_type_note,"Organization type is reported consistently only from FY{first}, so earlier years aren't shown.",true,"Justice Connection, 2026-10-17"
+015,why_range,"In the complete years FY{first} to FY{last_complete}, the share of new contract dollars awarded without competition ranged from {min_pct} (FY{min_fy}) to {max_pct} (FY{max_fy}). {period} is {cur_pct}.",true,watchdog-cards 2.3
+015,fixed_line,Awarding a contract without competition is often lawful; this doesn't indicate anything improper.,true,watchdog-cards 2.3 (2026-10-17)

@@ -1,0 +1,325 @@
+{
+  "agency_code": "015",
+  "card_types": {
+    "contracts_without_competition": {
+      "cards": [
+        {
+          "card_id": "card2-015-2017",
+          "csv": "desk/csv/card2-015-not-competed.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card2-015-2018",
+          "csv": "desk/csv/card2-015-not-competed.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card2-015-2019",
+          "csv": "desk/csv/card2-015-not-competed.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card2-015-2020",
+          "csv": "desk/csv/card2-015-not-competed.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card2-015-2021",
+          "csv": "desk/csv/card2-015-not-competed.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card2-015-2022",
+          "csv": "desk/csv/card2-015-not-competed.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card2-015-2023",
+          "csv": "desk/csv/card2-015-not-competed.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card2-015-2024",
+          "csv": "desk/csv/card2-015-not-competed.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card2-015-2025",
+          "csv": "desk/csv/card2-015-not-competed.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card2-015-2026",
+          "csv": "desk/csv/card2-015-not-competed.csv",
+          "status": "card"
+        }
+      ],
+      "parquet": [
+        "desk/public/card2_reasons.parquet",
+        "desk/public/card2_recipient_types.parquet",
+        "desk/public/card2_summary.parquet",
+        "desk/public/card2_text.parquet",
+        "desk/public/card2_top_awards.parquet"
+      ],
+      "published_csvs": [
+        "desk/csv/card2-015-not-competed.csv"
+      ]
+    },
+    "grant_categories": {
+      "cards": [
+        {
+          "card_id": "card3-015-2018-crime-victim-services",
+          "csv": "desk/csv/card3-015-2018-crime-victim-services.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2018-substance-use-mental-health-and-treatment-courts",
+          "csv": "desk/csv/card3-015-2018-substance-use-mental-health-and-treatment-courts.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card3-015-2018-violence-against-women",
+          "csv": "desk/csv/card3-015-2018-violence-against-women.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2019-crime-victim-services",
+          "csv": "desk/csv/card3-015-2019-crime-victim-services.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2020-byrne-jag-and-flexible-justice-assistance",
+          "csv": "desk/csv/card3-015-2020-byrne-jag-and-flexible-justice-assistance.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2020-crime-victim-services",
+          "csv": "desk/csv/card3-015-2020-crime-victim-services.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2020-policing-and-law-enforcement",
+          "csv": "desk/csv/card3-015-2020-policing-and-law-enforcement.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card3-015-2020-research-statistics-and-forensics",
+          "csv": "desk/csv/card3-015-2020-research-statistics-and-forensics.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card3-015-2021-byrne-jag-and-flexible-justice-assistance",
+          "csv": "desk/csv/card3-015-2021-byrne-jag-and-flexible-justice-assistance.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2021-violence-against-women",
+          "csv": "desk/csv/card3-015-2021-violence-against-women.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2022-congressionally-directed-and-other",
+          "csv": "desk/csv/card3-015-2022-congressionally-directed-and-other.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2024-congressionally-directed-and-other",
+          "csv": "desk/csv/card3-015-2024-congressionally-directed-and-other.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2024-crime-victim-services",
+          "csv": "desk/csv/card3-015-2024-crime-victim-services.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2025-congressionally-directed-and-other",
+          "csv": "desk/csv/card3-015-2025-congressionally-directed-and-other.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2025-crime-victim-services",
+          "csv": "desk/csv/card3-015-2025-crime-victim-services.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2025-research-statistics-and-forensics",
+          "csv": "desk/csv/card3-015-2025-research-statistics-and-forensics.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2026-byrne-jag-and-flexible-justice-assistance",
+          "csv": "desk/csv/card3-015-2026-byrne-jag-and-flexible-justice-assistance.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2026-policing-and-law-enforcement",
+          "csv": "desk/csv/card3-015-2026-policing-and-law-enforcement.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2026-research-statistics-and-forensics",
+          "csv": "desk/csv/card3-015-2026-research-statistics-and-forensics.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2026-substance-use-mental-health-and-treatment-courts",
+          "csv": "desk/csv/card3-015-2026-substance-use-mental-health-and-treatment-courts.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2026-tribal-justice",
+          "csv": "desk/csv/card3-015-2026-tribal-justice.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2026-violence-against-women",
+          "csv": "desk/csv/card3-015-2026-violence-against-women.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2026-violence-reduction-and-prevention",
+          "csv": "desk/csv/card3-015-2026-violence-reduction-and-prevention.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card3-015-2026-youth-children-and-juvenile-justice",
+          "csv": "desk/csv/card3-015-2026-youth-children-and-juvenile-justice.csv",
+          "status": "label"
+        }
+      ],
+      "parquet": [
+        "desk/public/card3_cards.parquet",
+        "desk/public/card3_categories.parquet",
+        "desk/public/card3_caveats.parquet",
+        "desk/public/card3_cvf_cap.parquet",
+        "desk/public/card3_listings.parquet",
+        "desk/public/card3_mix.parquet",
+        "desk/public/card3_periods.parquet",
+        "desk/public/card3_text.parquet"
+      ],
+      "published_csvs": [
+        "desk/csv/card3-015-2018-crime-victim-services.csv",
+        "desk/csv/card3-015-2018-substance-use-mental-health-and-treatment-courts.csv",
+        "desk/csv/card3-015-2018-violence-against-women.csv",
+        "desk/csv/card3-015-2019-crime-victim-services.csv",
+        "desk/csv/card3-015-2020-byrne-jag-and-flexible-justice-assistance.csv",
+        "desk/csv/card3-015-2020-crime-victim-services.csv",
+        "desk/csv/card3-015-2020-policing-and-law-enforcement.csv",
+        "desk/csv/card3-015-2020-research-statistics-and-forensics.csv",
+        "desk/csv/card3-015-2021-byrne-jag-and-flexible-justice-assistance.csv",
+        "desk/csv/card3-015-2021-violence-against-women.csv",
+        "desk/csv/card3-015-2022-congressionally-directed-and-other.csv",
+        "desk/csv/card3-015-2024-congressionally-directed-and-other.csv",
+        "desk/csv/card3-015-2024-crime-victim-services.csv",
+        "desk/csv/card3-015-2025-congressionally-directed-and-other.csv",
+        "desk/csv/card3-015-2025-crime-victim-services.csv",
+        "desk/csv/card3-015-2025-research-statistics-and-forensics.csv",
+        "desk/csv/card3-015-2026-byrne-jag-and-flexible-justice-assistance.csv",
+        "desk/csv/card3-015-2026-policing-and-law-enforcement.csv",
+        "desk/csv/card3-015-2026-research-statistics-and-forensics.csv",
+        "desk/csv/card3-015-2026-substance-use-mental-health-and-treatment-courts.csv",
+        "desk/csv/card3-015-2026-tribal-justice.csv",
+        "desk/csv/card3-015-2026-violence-against-women.csv",
+        "desk/csv/card3-015-2026-violence-reduction-and-prevention.csv",
+        "desk/csv/card3-015-2026-youth-children-and-juvenile-justice.csv"
+      ]
+    },
+    "national_organizations": {
+      "cards": [
+        {
+          "card_id": "natorg-015-2025-dollars",
+          "csv": "desk/csv/natorg-015-2025-dollars.csv",
+          "status": "card"
+        }
+      ],
+      "parquet": [
+        "desk/public/natorg_cards.parquet",
+        "desk/public/natorg_caveats.parquet",
+        "desk/public/natorg_components.parquet",
+        "desk/public/natorg_organizations.parquet",
+        "desk/public/natorg_programs.parquet",
+        "desk/public/natorg_series.parquet"
+      ],
+      "published_csvs": [
+        "desk/csv/natorg-015-2025-dollars.csv"
+      ]
+    },
+    "state_stand_out": {
+      "cards": [
+        {
+          "card_id": "card4-015-2025-AL-contract-dollars",
+          "csv": "desk/csv/card4-015-2025-AL-contract-dollars.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card4-015-2026-AK-contract-dollars",
+          "csv": "desk/csv/card4-015-2026-AK-contract-dollars.csv",
+          "status": "card"
+        },
+        {
+          "card_id": "card4-015-2026-AL-contract-dollars",
+          "csv": "desk/csv/card4-015-2026-AL-contract-dollars.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card4-015-2026-CO-contract-dollars",
+          "csv": "desk/csv/card4-015-2026-CO-contract-dollars.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card4-015-2026-ME-assistance-dollars",
+          "csv": "desk/csv/card4-015-2026-ME-assistance-dollars.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card4-015-2026-NV-contract-dollars",
+          "csv": "desk/csv/card4-015-2026-NV-contract-dollars.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card4-015-2026-NY-assistance-dollars",
+          "csv": "desk/csv/card4-015-2026-NY-assistance-dollars.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card4-015-2026-VA-assistance-dollars",
+          "csv": "desk/csv/card4-015-2026-VA-assistance-dollars.csv",
+          "status": "label"
+        },
+        {
+          "card_id": "card4-015-2026-WV-contract-dollars",
+          "csv": "desk/csv/card4-015-2026-WV-contract-dollars.csv",
+          "status": "card"
+        }
+      ],
+      "parquet": [
+        "desk/public/card4_cards.parquet",
+        "desk/public/card4_caveats.parquet",
+        "desk/public/card4_components.parquet",
+        "desk/public/card4_national_orgs.parquet",
+        "desk/public/card4_params.parquet",
+        "desk/public/card4_programs.parquet",
+        "desk/public/card4_recipients.parquet",
+        "desk/public/card4_series.parquet",
+        "desk/public/card4_text.parquet"
+      ],
+      "published_csvs": [
+        "desk/csv/card4-015-2025-AL-contract-dollars.csv",
+        "desk/csv/card4-015-2026-AK-contract-dollars.csv",
+        "desk/csv/card4-015-2026-AL-contract-dollars.csv",
+        "desk/csv/card4-015-2026-CO-contract-dollars.csv",
+        "desk/csv/card4-015-2026-ME-assistance-dollars.csv",
+        "desk/csv/card4-015-2026-NV-contract-dollars.csv",
+        "desk/csv/card4-015-2026-NY-assistance-dollars.csv",
+        "desk/csv/card4-015-2026-VA-assistance-dollars.csv",
+        "desk/csv/card4-015-2026-WV-contract-dollars.csv"
+      ]
+    }
+  },
+  "data_as_of": "2026-10-16 03:03:28.945433",
+  "published_statuses": [
+    "card",
+    "label"
+  ]
+}

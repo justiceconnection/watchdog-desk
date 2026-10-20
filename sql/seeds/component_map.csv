@@ -1,0 +1,57 @@
+agency_code,federal_account_symbol,component_group,component,notes
+015,015-0200,FBI,Federal Bureau of Investigation,S&E
+015,015-0203,FBI,Federal Bureau of Investigation,Construction
+015,015-1060,Bureau of Prisons,Bureau of Prisons,S&E; includes HHS child TAS 075-015-...-1060
+015,015-1003,Bureau of Prisons,Bureau of Prisons,Buildings & Facilities
+015,015-8408,Bureau of Prisons,Bureau of Prisons,Commissary Funds
+015,015-4500,Bureau of Prisons,Federal Prison Industries (UNICOR),Revolving/reimbursable; FY2025-26 File B sign reversal
+015,015-0324,U.S. Marshals Service,U.S. Marshals Service,S&E
+015,015-0133,U.S. Marshals Service,U.S. Marshals Service,Construction
+015,015-1020,U.S. Marshals Service,U.S. Marshals Service,Federal Prisoner Detention
+015,015-4575,U.S. Marshals Service,U.S. Marshals Service,JPATS Fund
+015,015-0136,U.S. Marshals Service,U.S. Marshals Service,Detention Trustee (FY2017 only; predecessor of 1020)
+015,015-1100,DEA,Drug Enforcement Administration,S&E
+015,015-1101,DEA,Drug Enforcement Administration,Construction
+015,015-5131,DEA,Drug Enforcement Administration,Diversion Control Fee Account
+015,015-0700,ATF,ATF,S&E; FY2018-19 File B sign reversal (obligations)
+015,015-0720,ATF,ATF,Construction
+015,015-0322,U.S. Attorneys,U.S. Attorneys (incl. EOUSA),S&E
+015,015-0401,Grant-making offices,Office of Justice Programs,"Research, Evaluation & Statistics"
+015,015-0403,Grant-making offices,Office of Justice Programs,Public Safety Officers' Benefits
+015,015-0404,Grant-making offices,Office of Justice Programs,State & Local Law Enforcement Assistance
+015,015-0405,Grant-making offices,Office of Justice Programs,State & Local Law Enforcement Assistance
+015,015-0420,Grant-making offices,Office of Justice Programs,OJP S&E (to FY2021)
+015,015-5041,Grant-making offices,Office of Justice Programs,Crime Victims Fund (includes transfers funding OVW and others)
+015,015-8306,Grant-making offices,Office of Justice Programs,"Gifts, Crime Victims Fund"
+015,015-5606,Grant-making offices,Office of Justice Programs,Domestic Trafficking Victims' Fund
+015,015-0334,Grant-making offices,Office of Justice Programs,Weed & Seed
+015,015-0410,Grant-making offices,Office of Justice Programs,"BRIDGE Fund (OBBBA, FY2025+)"
+015,015-0409,Grant-making offices,Office on Violence Against Women,
+015,015-0406,Grant-making offices,COPS Office,
+015,015-8594,Grant-making offices,Office of Justice Programs,"OJP/COPS/VCRP legacy account (FY2017-2020, ~$0)"
+015,015-0128,Litigating & legal offices,General Legal Activities,"Civil, Criminal, Civil Rights, ENRD, Tax, OSG, OLC, INTERPOL, Pardon Attorney; split only via File B program activity"
+015,015-0140,Litigating & legal offices,OBBBA sec. 100054 activities (General Legal Activities),FY2026+; statutory purpose not yet confirmed
+015,015-0319,Litigating & legal offices,Antitrust Division,
+015,015-1300,Litigating & legal offices,National Security Division,
+015,015-5073,Litigating & legal offices,U.S. Trustee Program,
+015,015-0311,Litigating & legal offices,Fees & Expenses of Witnesses,
+015,015-0327,Litigating & legal offices,Independent Counsel,
+015,015-0339,Adjudication & other offices,Executive Office for Immigration Review,
+015,015-1061,Adjudication & other offices,U.S. Parole Commission,
+015,015-0500,Adjudication & other offices,Community Relations Service,
+015,015-0100,Adjudication & other offices,Foreign Claims Settlement Commission,
+015,015-0104,Adjudication & other offices,Foreign Claims Settlement Commission,
+015,015-0139,Compensation funds,September 11th Victim Compensation Fund,
+015,015-0340,Compensation funds,September 11th Victim Compensation Fund,(to FY2020)
+015,015-5608,Compensation funds,U.S. Victims of State Sponsored Terrorism Fund,
+015,015-0333,Compensation funds,Radiation Exposure Compensation (RECA),Payment to RECA Trust Fund (pays into 8116; both counted)
+015,015-8116,Compensation funds,Radiation Exposure Compensation (RECA),RECA Trust Fund
+015,015-0129,Department management & shared funds,General Administration (JMD and leadership offices),
+015,015-0132,Department management & shared funds,General Administration (JMD and leadership offices),TLEWC
+015,015-0134,Department management & shared funds,General Administration (JMD and leadership offices),JIST
+015,015-1102,Department management & shared funds,General Administration (JMD and leadership offices),NDIC (FY2017)
+015,015-0328,Department management & shared funds,Office of the Inspector General,
+015,015-4526,Department management & shared funds,Working Capital Fund,Mostly reimbursable work for other DOJ components
+015,015-5042,Department management & shared funds,Assets Forfeiture Fund,
+015,015-0323,Department management & shared funds,OCDETF (Interagency Crime & Drug Enforcement),
+015,015-8305,Department management & shared funds,Justice Gift Fund,

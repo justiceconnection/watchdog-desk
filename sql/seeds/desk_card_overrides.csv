@@ -1,0 +1,3 @@
+agency_code,card_type,fiscal_year,state,award_category,measure,status,wording,label_text,reason_code,reason,editorial_question,decided_by,decided_on
+015,state_stand_out,2026,AK,contract,dollars,card,contractors_based_in,,editorial_decision_2026-10-17,"Publish as ""contractors based in Alaska"" with the location caveat (decisions 2026-10-17; spec 4.7)",,Justice Connection,2026-10-17
+015,state_stand_out,2026,VA,assistance,dollars,label,,"Most of the change is one $43.0 million award to the National Center for Missing & Exploited Children (16.543), made on Dec 5, 2025, later in its cycle than usual (normally Aug–Sep), so it falls in this October–July window.",analyst_label_2026-10-17,"verifier-corrected label, spec 4.7",,Justice Connection,2026-10-17

@@ -1,0 +1,16 @@
+code,label,source
+NONE,No set-aside,FPDS type_of_set_aside (NO SET ASIDE USED.)
+SBA,Small business set-aside (total),FPDS type_of_set_aside
+SBP,Small business set-aside (partial),FPDS type_of_set_aside
+8AN,8(a) sole source,FPDS type_of_set_aside
+8A,8(a) competed,FPDS type_of_set_aside
+SDVOSBC,Service-disabled veteran-owned small business set-aside,FPDS type_of_set_aside
+SDVOSBS,Service-disabled veteran-owned small business sole source,FPDS type_of_set_aside
+WOSB,Women-owned small business set-aside,FPDS type_of_set_aside
+WOSBSS,Women-owned small business sole source,FPDS type_of_set_aside
+EDWOSB,Economically disadvantaged women-owned small business set-aside,FPDS type_of_set_aside
+EDWOSBSS,Economically disadvantaged women-owned small business sole source,FPDS type_of_set_aside
+HZC,HUBZone set-aside,FPDS type_of_set_aside
+HZS,HUBZone sole source,FPDS type_of_set_aside
+ISBEE,Indian small business economic enterprise,FPDS type_of_set_aside
+Not reported,Not reported,Justice Connection (NULL code)

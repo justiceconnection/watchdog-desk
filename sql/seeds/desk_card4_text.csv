@@ -1,0 +1,30 @@
+agency_code,key,template,final,source
+015,period_complete,FY{t},true,watchdog-cards 4.6
+015,period_provisional,FY{t} (provisional),true,watchdog-cards 4.4 (contracts FY2026 provisional)
+015,period_gap,FY{t} so far (October–{cut_month}),true,spec 4.4 like-period; so-far wording (spec gives no period string); final 2026-10-17
+015,subject_state,{state},true,watchdog-cards 4.6
+015,subject_contractors,Contractors based in {state},true,"watchdog-cards 4.5 contractor_address wording (Alaska, 2026-10-17)"
+015,headline_fell_more,"{subject}: new {agency} {noun} {measure_word} fell {pct} in {period}, compared with a {rest_pct} {rest_dir_noun} in the rest of the country.",true,watchdog-cards 4.6 Fell more
+015,headline_rose_more,"{subject}: new {agency} {noun} {measure_word} rose {pct} in {period}, compared with a {rest_pct} {rest_dir_noun} in the rest of the country.",true,Fell more mirrored for rises (spec has no rose-more template); final 2026-10-17
+015,headline_same_flat,"{subject}: new {agency} {noun} {measure_word} {verb} {pct} in {period}, compared with almost no change in the rest of the country.",true,rest of the country rounds to 0%; final 2026-10-17
+015,headline_opposite,"{subject}: new {agency} {noun} {measure_word} {verb} {pct} in {period}, while the rest of the country {rest_verb} {rest_pct}.",true,watchdog-cards 4.6 Opposite
+015,headline_small_base,"{subject}: new {agency} {noun} {measure_word} went from {prior} in FY{t_prior} to {current} in {period}, while the rest of the country {rest_verb} {rest_pct}.",true,watchdog-cards 4.6 Small prior base (period string as elsewhere)
+015,label_lead,Most of the change is,true,watchdog-cards 4.5
+015,label_lead_over,More than the whole change is,true,watchdog-cards 4.5 share over 100%
+015,label_award_lost,"{lead} one large {component} {award_type} to {recipient} in FY{year}, {amount}, that wasn't repeated in FY{next_year}.",true,watchdog-cards 4.5 one_award
+015,label_award_new,"{lead} one new {component} {award_type} to {recipient}, {amount}, in FY{year}.",true,watchdog-cards 4.5 (rev 2026-10-17)
+015,label_recipient_lost,{lead} {amount} in {award_type}s to {recipient} in FY{year} that weren't repeated in FY{next_year}.,true,watchdog-cards 4.5 (rev 2026-10-17)
+015,label_recipient_new,{lead} {amount} in new {award_type}s to {recipient} in FY{year}.,true,watchdog-cards 4.5 (rev 2026-10-17)
+015,label_recipient_lost_count,{lead} {n} {award_type}s to {recipient} in FY{year} that weren't repeated in FY{next_year}.,true,watchdog-cards 4.5 (rev 2026-10-17)
+015,label_recipient_new_count,{lead} {n} new {award_type}s to {recipient} in FY{year}.,true,watchdog-cards 4.5 (rev 2026-10-17)
+015,why_pts,Most states' changes were no more than {band} percentage points {above_below} the rest of the country's this year; {state}'s was {gap} points {above_below}.,true,watchdog-cards 4.6 item 2 (rev 2026-10-17)
+015,why_small_base,"{state}'s FY{t_prior} total was too small for a meaningful percentage change, but its {rise_fall} was still far outside the range of most states.",true,watchdog-cards 4.6 item 2 (rev 2026-10-17)
+015,why_opposite,It moved in the opposite direction from the rest of the country.,true,watchdog-cards 4.6 item 2
+015,fixed_line,This compares award totals; it doesn't indicate anything improper.,true,watchdog-cards 4.1 / 4.6 item 3
+015,caveat_ojp_gap,OJP's own award list shows {k} FY{y} awards for {state} that aren't in USAspending yet; this card uses USAspending.,true,watchdog-cards 4.6 OJP gap note
+015,caveat_ojp_gap_zero,OJP's own award list shows no FY{y} awards for {state} missing from USAspending.,true,watchdog-cards 4.6 OJP gap note (k = 0)
+015,caveat_grant_cutoff,"FY{t} grant data runs only through {cut_long}, and OJP is still awarding FY{t_prior} funds; many of those awards aren't in USAspending yet. This card compares October–{cut_month} in both years, so some of the change may be award timing rather than fewer grants.",true,watchdog-cards 4.6 FY2026 grant gap (exact)
+015,caveat_pass_through,"{x}% of these grant dollars went to {state} government agencies, which often pass much of the money on to local governments and organizations. Sub-award reports show at least {y} passed on to {n} recipients so far (a floor; reporting is incomplete).",true,watchdog-cards 4.6 Pass-through
+015,caveat_pass_through_none,"{x}% of these grant dollars went to {state} government agencies, which often pass much of the money on to local governments and organizations. No sub-awards have been reported under these awards so far (reporting is incomplete).",true,pass-through when the floor is $0; final 2026-10-17
+015,caveat_contractor_address,"Counts contractors based in {state}. For {cell}% of these contract dollars, the recorded place of performance is simply the contractor's own address ({base}% across {agency} in FY{t}). By recorded place of performance, {pop_in}% of these dollars are in {state}.",true,watchdog-cards 4.6 Contractor address (revised 2026-10-17)
+015,caveat_provisional_contracts,FY{t} contract data is provisional (through {through}).,true,watchdog-cards 4.6 Provisional contracts

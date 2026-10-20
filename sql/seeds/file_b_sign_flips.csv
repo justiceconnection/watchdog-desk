@@ -1,0 +1,13 @@
+agency_code,fiscal_year,treasury_account_symbol,measure,verified_by,verified_on,evidence
+015,2018,015-2015/2015-0700-000,obligations,verifier,2026-10-15,"independent check, 2026-10-15: raw File B component columns positive and sum to File A magnitude"
+015,2018,015-2016/2016-0700-000,obligations,verifier,2026-10-15,"independent check, 2026-10-15"
+015,2018,015-2017/2017-0700-000,obligations,verifier,2026-10-15,"independent check, 2026-10-15"
+015,2018,015-2018/2018-0700-000,obligations,verifier,2026-10-15,"independent check, 2026-10-15"
+015,2018,015-X-0700-000,obligations,verifier,2026-10-15,"independent check, 2026-10-15"
+015,2019,015-2018/2018-0700-000,obligations,verifier,2026-10-15,"independent check, 2026-10-15"
+015,2019,015-2019/2019-0700-000,obligations,verifier,2026-10-15,"independent check, 2026-10-15"
+015,2019,015-X-0700-000,obligations,verifier,2026-10-15,"independent check, 2026-10-15"
+015,2025,015-X-4500-000,obligations,verifier,2026-10-15,"independent check, 2026-10-15: whole-account sign reversal (all File B columns negated)"
+015,2025,015-X-4500-000,outlays,verifier,2026-10-15,"independent check, 2026-10-15: whole-account sign reversal"
+015,2026,015-X-4500-000,obligations,verifier,2026-10-15,"independent check, 2026-10-15: whole-account sign reversal"
+015,2026,015-X-4500-000,outlays,verifier,2026-10-15,"independent check, 2026-10-15: whole-account sign reversal"

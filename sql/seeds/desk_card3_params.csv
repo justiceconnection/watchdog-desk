@@ -1,0 +1,24 @@
+agency_code,parameter,value,kind,source
+015,categories_csv,docs/specs/grant-categories.csv,rule,watchdog-cards 3.1 scheme (read only)
+015,first_fy,2017,rule,watchdog-cards 3.2 window start
+015,ojp_component,Office of Justice Programs,rule,watchdog-cards 3.2/3.7 OJP = component under metrics 6.2
+015,voca_formula_listings,16.575 16.576,rule,watchdog-cards 3.3 OJP excluding VOCA formula grants
+015,scaap_listing,16.606,rule,watchdog-cards 3.3 SCAAP: separate segment; out of trigger amounts and shares
+015,size_min,25000000,rule,watchdog-cards 3.3 size: larger of t and t-1 >= this
+015,abs_min,10000000,rule,watchdog-cards 3.3 absolute change >= this
+015,pct_min,0.15,rule,watchdog-cards 3.3 percent change >= this of t-1 (or t-1 = 0)
+015,share_min_pts,5,rule,watchdog-cards 3.3 share shift >= this many percentage points; same direction as the dollar change
+015,timing_min_ratio,0.5,rule,watchdog-cards 3.3 timing check: cycle share shift same sign and >= this fraction of the FY shift
+015,label_min_share,0.5,rule,watchdog-cards 3.3 cvf_cap / earmarks / covid: driver listings >= this share of the category's change
+015,victim_category,Crime victim services,rule,watchdog-cards 3.3 cvf_cap label
+015,earmark_category,Congressionally directed and other,rule,watchdog-cards 3.3 earmarks label
+015,earmark_listings,16.753,rule,watchdog-cards 3.3 earmarks label
+015,covid_category,Byrne JAG and flexible justice assistance,rule,watchdog-cards 3.3 covid label
+015,covid_listings,16.034,rule,watchdog-cards 3.3 covid label (CESF)
+015,covid_years,2020 2021,rule,watchdog-cards 3.3 covid label years
+015,tribal_first_categories,Crime victim services|Violence against women,text,watchdog-cards 3.4 tribal-first note on these categories (|-separated)
+015,gap_year_status,label,editorial,"Justice Connection, 2026-10-17: gap-year Card 3 candidates publish with the gap wording (label); hold = hold them. Items failing the timing check stay held"
+015,top_listings,3,text,watchdog-cards 3.4 drivers: top listings by |change|
+015,one_award_share,0.6,rule,watchdog-cards 3.4 one-award concentration (Card 4 label wording)
+015,denominator_min_f,0.5,rule,watchdog-cards 3.3 denominator label when f >= this (never when f <= 0)
+015,second_line_other_scope_categories,Crime victim services,text,watchdog-cards 3.5: categories whose second line also gives the next confirmed scope's share (|-separated)

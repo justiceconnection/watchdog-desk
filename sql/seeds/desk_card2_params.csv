@@ -1,0 +1,12 @@
+agency_code,parameter,value,kind,source
+015,not_competed_codes,B C NDO,rule,watchdog-cards 2.1 not competed
+015,competed_codes,A D E CDO,rule,watchdog-cards 2.1 competed; E counted as competed (FPDS convention)
+015,sap_extent_codes,F G,rule,watchdog-cards 2.1 small purchase test (1): extent_competed_code
+015,sap_solicitation_codes,SP1,rule,watchdog-cards 2.1 small purchase test (1): solicitation_procedures_code
+015,sap_justification_codes,SP2 MPT,rule,watchdog-cards 2.1 small purchase test (1): other_than_full_and_open_competition_code
+015,sap_threshold,250000,rule,watchdog-cards 2.1 small purchase test (2): base_and_all_options_value (fallback base obligation) at or below this
+015,utilities_code,UT,editorial,"Justice Connection, 2026-10-17: utilities shown as a separate band"
+015,org_type_first_fy,2019,rule,watchdog-cards 2.2: organizational_type unusable before FY2019
+015,concentration_share,0.15,rule,watchdog-cards 2.1 concentration rule (routine): show the top 5 when one award is at least this share of a year's not-competed dollars
+015,top_awards_n,5,text,number of top awards listed (2026-10-17)
+015,first_fy,2017,rule,watchdog-cards 2.1 window start

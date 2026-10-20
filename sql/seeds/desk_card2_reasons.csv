@@ -1,0 +1,17 @@
+agency_code,code,label,band,sort
+015,ONE,Only one responsible source,other,1
+015,OTH,Authorized by statute (incl. 8(a) sole source),other,2
+015,UT,Utilities,utilities,3
+015,URG,Unusual and compelling urgency,other,4
+015,FOC,Follow-on contract,other,5
+015,MES,Mobilization or essential R&D capability,other,6
+015,UNQ,Unique source,other,7
+015,BND,Brand name,other,8
+015,STD,Standardization,other,9
+015,RES,Resale,other,10
+015,PI,Public interest,other,11
+015,IA,International agreement,other,12
+015,NS,National security,other,13
+015,SP2,Simplified acquisition non-competition,other,14
+015,MPT,Micro-purchase,other,15
+015,PDR,Patent or data rights,other,16

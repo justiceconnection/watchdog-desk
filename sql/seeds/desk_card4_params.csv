@@ -1,0 +1,33 @@
+agency_code,parameter,value,kind,source
+015,c_dollars,5000000,rule,watchdog-cards 4.3 damping constant (dollars)
+015,c_counts,10,rule,watchdog-cards 4.3 damping constant (counts)
+015,size_dollars,10000000,rule,watchdog-cards 4.3 size floor: max(prior; current) >= this (dollars)
+015,size_counts,25,rule,watchdog-cards 4.3 size floor (awards)
+015,excess_dollars,5000000,rule,watchdog-cards 4.3 excess floor |excess| >= this (dollars)
+015,excess_counts,15,rule,watchdog-cards 4.3 excess floor (awards)
+015,z_far,3.0,rule,watchdog-cards 4.3 far trigger |z| >= this
+015,s_min,0.22314355131420976,rule,watchdog-cards 4.3 MAD scale floor ln(1.25) (trend engine s_min)
+015,opp_min,0.4054651081081644,rule,watchdog-cards 4.3 opposite trigger |r| >= ln(1.5)
+015,nat_min,0.09531017980432493,rule,watchdog-cards 4.3 opposite trigger |R| >= ln(1.1)
+015,min_states,5,rule,watchdog-cards 4.3 at least this many floor-passing states to score
+015,contract_min_amount,10000,rule,metrics 7.7 size band: contracts count only new awards over this amount
+015,concentration_share,0.6,rule,watchdog-cards 4.5 one_award / one_recipient share of the change
+015,cycle_confirm_z,2.0,rule,watchdog-cards 4.4 award-cycle confirmation |z_cycle| >= this; same direction
+015,ca_margin,0.39,rule,watchdog-cards 4.5 / trend-signals 5 contractor_address: share >= DOJ base rate + margin
+015,ca_cap,0.95,rule,trend-signals 5 contractor_address threshold cap
+015,band_lo_pct,10,text,watchdog-cards 4.6 why-text band: low percentile of floor-passing states' gaps
+015,band_hi_pct,90,text,watchdog-cards 4.6 why-text band: high percentile
+015,gap_year_grant_status,label,editorial,"Justice Connection, 2026-10-17, and spec 4.4: grant cards in a reporting-gap year publish with the gap wording (label); set hold to hold them"
+015,one_award_status,label,editorial,"Justice Connection, 2026-10-17: one-award cards publish naming the award (label | hold)"
+015,count_card_min_dollar_change,1000000,rule,spec 4.3 (2026-10-17): count-only items whose dollar change on the same rows is under this get status suppressed (0 = off)
+015,excluded_states,DC,editorial,"spec 4.2 and Justice Connection, 2026-10-17: excluded from state comparisons in both categories (not scored; not in any rest-of-country total or median). Space-separated"
+015,natorg_rule,a_or_b,editorial,spec 4.9 (accepted by Justice Connection 2026-10-17): national organizations excluded from grant comparisons. a_or_b = (a) HQ-state or (b) sub-awards in N+ states; a_only; off
+015,natorg_nongov_types,M N Q R X,rule,spec 4.9: modal business_types_code that counts as non-government
+015,natorg_hq_state,DC,rule,spec 4.9 (a): modal recipient state of a headquartered national organization
+015,natorg_min_sub_states,5,rule,spec 4.9 (b): distinct subawardee_state_code under the recipient's prime awards
+015,pass_through_min_share,0.25,rule,spec 4.6: pass-through caveat when the state-agency (type A) share of the card's current-period dollars is at least this
+015,top_recipients,5,text,spec 4.6 item 5: recipients table length
+015,ojp_dashboard_csv,reference/ojp_dashboard/2026-10-16/AwardsByStateAndCity.csv,rule,"spec 4.6 OJP gap note source (OJP award list, 2026-10-16); blank = no note"
+015,ojp_gap_year,2025,rule,spec 4.6 OJP gap note: award year counted (NOFO-title year)
+015,natorg_gap_min,0.4054651081081644,rule,spec 4.9: national-organizations card when |r_group - r_rest| >= ln(1.5)
+015,natorg_top_organizations,10,text,national-organizations card: top organizations table length

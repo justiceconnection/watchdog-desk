@@ -1,0 +1,13 @@
+agency_code,key,template,final,source
+015,title,National organizations,true,watchdog-cards 4.9 rev 2026-10-17
+015,headline_same,"National organizations: new {agency} grant {measure_word} {verb} {pct} in {period}, compared with a {rest_pct} {rest_dir_noun} for all other grant recipients.",true,watchdog-cards 4.9 headline
+015,headline_opposite,"National organizations: new {agency} grant {measure_word} {verb} {pct} in {period}, while new grant {measure_word} for all other recipients {rest_verb} {rest_pct}.",true,watchdog-cards 4.9 rev 2026-10-17
+015,headline_small_base,"National organizations: new {agency} grant {measure_word} went from {prior} in FY{t_prior} to {current} in {period}, while new grant {measure_word} for all other recipients {rest_verb} {rest_pct}.",true,watchdog-cards 4.9 rev 2026-10-17
+015,why,"Taking FY{t_prior} as 100, national organizations ended at {g} and all other grant recipients at {r}.",true,watchdog-cards 4.9 rev 2026-10-17
+015,why_rule,We show this card when one group's figure is at least 1.5 times the other's.,true,watchdog-cards 4.9 rev 2026-10-17
+015,why_opposite,National organizations moved in the opposite direction from all other grant recipients.,true,watchdog-cards 4.9 rev 2026-10-17
+015,caveat_ojp_gap,OJP's own award list shows at least {k} FY{y} awards to these organizations that aren't in USAspending yet (matched by organization name); this card uses USAspending.,true,watchdog-cards 4.9 rev 2026-10-17
+015,caveat_ojp_gap_zero,We found no FY{y} awards to these organizations on OJP's own award list that are missing from USAspending (matched by organization name).,true,watchdog-cards 4.9 rev 2026-10-17
+015,caveat_cycle_so_far,"The award-cycle panel counts each cycle's awards made through {cut_md} of the following year. DOJ may still be making FY{t}-cycle awards, so those figures are partial.",true,watchdog-cards 4.9 rev 2026-10-17
+015,caveat_hq_other,"Other {hq} recipients, such as {hq} government agencies, are in neither group. Their new grant {measure_word} went from {prior} in FY{t_prior} to {current} in {period}.",true,watchdog-cards 4.9 rev 2026-10-17
+015,caveat_membership,"National organizations ({n}) are nonprofit and private grant recipients that are either based in Washington, DC, or pass DOJ grant money on to sub-recipients in 5 or more states. They're left out of the state comparisons.",true,watchdog-cards 4.9 rev 2026-10-17

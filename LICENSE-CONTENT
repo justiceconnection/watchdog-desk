@@ -1,0 +1,18 @@
+Content License
+
+Copyright (c) 2026 Justice Connection
+
+The card text, the documentation (docs/, README.md and SPEC.md) and the derived data files (marts/) in this
+repository are licensed under the Creative Commons Attribution 4.0 International license (CC BY 4.0):
+https://creativecommons.org/licenses/by/4.0/
+
+You may share and adapt this material for any purpose, including commercially, as long as you give appropriate
+credit, link to the license, and indicate if you made changes. Attribution: "Justice Connection".
+
+What this license covers. The underlying source data comes from USAspending.gov and from the Office of Justice
+Programs (OJP) awards dashboard. These are U.S. government works and are in the public domain. This license
+covers only Justice Connection's selection, analysis and text, such as the card wording, the metric definitions
+and the derived tables. It does not claim any rights in the source data itself.
+
+The code in this repository (app/, scripts/, sql/ and .github/) is licensed separately under the MIT License in
+the file LICENSE.

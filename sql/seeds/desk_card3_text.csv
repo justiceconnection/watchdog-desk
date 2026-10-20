@@ -1,0 +1,24 @@
+agency_code,key,template,final,source
+015,title,DOJ grant dollars by category,true,"Justice Connection, 2026-10-17"
+015,scope_label_doj,DOJ's,true,watchdog-cards 3.4
+015,scope_label_ojp,OJP's,true,watchdog-cards 3.4
+015,scope_label_ojpx,OJP's (excluding VOCA formula grants),true,watchdog-cards 3.4
+015,period_complete,FY{t},true,watchdog-cards 3.4
+015,period_gap,FY{t} so far (October–{cut_month}),true,watchdog-cards 4.6 (same period wording as Card 4)
+015,headline,"{category}: {p} of {scope_label} new grant dollars in {period}, {up_down} from {q} in {prior_period}.",true,watchdog-cards 3.4 headline; prior period names October–July in the gap year (2026-10-17)
+015,second_line,New awards in this category went from {prior} to {current}.,true,"watchdog-cards 3.4 / 3.5 (amounts in millions, 1 decimal)"
+015,fixed_line,This compares how DOJ's grant dollars were divided; it doesn't indicate anything improper.,true,watchdog-cards 3.4 fixed line
+015,label_cvf_cap,"VOCA formula grants follow the cap Congress sets each year on spending from the Crime Victims Fund ({cap_prior} in FY{t_prior}, {cap_t} in FY{t}).",true,watchdog-cards 3.3 cvf_cap
+015,label_cvf_cap_nocap,VOCA formula grants follow the cap Congress sets each year on spending from the Crime Victims Fund.,true,cvf_cap when the cvf_cap seed has no cap for a year (final 2026-10-17)
+015,label_earmarks,Congressionally directed awards depend on whether that year's appropriations act included them.,true,watchdog-cards 3.3 earmarks
+015,label_covid,Includes one-time COVID-19 emergency funding (FY2020).,true,watchdog-cards 3.3 covid
+015,caveat_tribal_first,"Programs open only to tribes are counted under Tribal justice, not here. Tribal justice shows them by topic.",true,"Justice Connection, 2026-10-17"
+015,note_scaap,"SCAAP reimburses jail costs and was paid only in FY2022–23, for two earlier years.",true,watchdog-cards 3.4 SCAAP footnote
+015,note_gap_year,October–July only,true,watchdog-cards 3.4 FY2026 hatch label
+015,note_fy2017,some earlier awards may be missing,true,watchdog-cards 3.4 FY2017 note
+015,csv_note,"Amounts are initial award amounts (obligations on the new-award date), not net obligations or outlays.",true,watchdog-cards 3.4 CSV header statement (final 2026-10-17)
+015,caveat_gap_share,"FY{t} grant data runs only through {cut_long}, and OJP's own award list shows {k} FY{t_prior} awards that aren't in USAspending yet. A share depends on every category at once, so a program reported late changes the shares of all the others. This card compares October–{cut_month} in both years; in both periods, {late_pct}% or more of these grant dollars are awards from earlier years' award cycles, so the shares mostly reflect award timing.",true,watchdog-cards 3.5 gap caveat (rev: earlier years' award cycles)
+015,caveat_ojp_gap_share,"OJP's own award list shows {k} FY{t} awards that aren't in USAspending yet. We can't tell which categories they belong to, so every category's share may change when they're reported. This card uses USAspending.",true,watchdog-cards 3.3 ojp_gap (agency-wide)
+015,denominator_note,"{f_pct}% of this change in share comes from {scope_owner} total new grant dollars{excl_scaap} {rising_falling} from {total_prior} to {total_current}. At FY{t_prior}'s total, {category_possessive} share would have been {s_star}%.",true,watchdog-cards 3.3 denominator (excluding SCAAP when SCAAP is non-zero in either year)
+015,second_line_other_scope," At {scope_name}, the share went from {q} to {p}.",true,watchdog-cards 3.5 victim-services second line
+015,note_scaap_shares,"Shares on this card leave out the State Criminal Alien Assistance Program (SCAAP), which reimburses jail costs and was paid only in FY2022–23, for two earlier years. The chart shows it as a separate dotted segment above the 100% line, labelled in dollars.",true,"Justice Connection, 2026-10-17 (replacement sentence)"

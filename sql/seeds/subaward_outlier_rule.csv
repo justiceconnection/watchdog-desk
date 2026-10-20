@@ -1,0 +1,2 @@
+rule_id,min_ratio_to_prime,min_subaward_amount,min_prime_award_amount_exclusive,review_min_ratio_to_prime_exclusive,review_min_subaward_amount,source
+v1,10,100000000,0,1,10000000,"is_outlier = subaward_amount >= 10 * prime_award_amount AND prime_award_amount > 0 AND subaward_amount >= 1e8 (independent check, 2026-10-15; Justice Connection 2026-10-16: excluded by default). subaward_review_flag = prime_award_amount > 0 AND subaward_amount > 1 * prime_award_amount AND subaward_amount >= 1e7 AND NOT is_outlier (review, 2026-10-15; flag only)"

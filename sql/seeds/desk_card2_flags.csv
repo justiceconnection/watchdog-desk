@@ -1,0 +1,7 @@
+agency_code,column,label,sort
+015,c8a_program_participant,8(a) program participant,1
+015,alaskan_native_corporation_owned_firm,Alaska Native corporation-owned,2
+015,tribally_owned_firm,Tribally owned,3
+015,woman_owned_business,Woman-owned,4
+015,service_disabled_veteran_owned_business,Service-disabled veteran-owned,5
+015,historically_underutilized_business_zone_hubzone_firm,HUBZone,6

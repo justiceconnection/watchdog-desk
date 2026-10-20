@@ -1,0 +1,25 @@
+code,label,note
+A,State governments,FABS business_types_code A (state government)
+B,Counties,B county government
+C,Cities and townships,C city or township government
+D,Special districts,D special district government
+E,Regional organizations,E regional organization
+F,U.S. territories,F U.S. territory or possession
+G,Independent school districts,G independent school district
+H,Public universities,H public/state controlled institution of higher education
+I,Tribal governments (federally recognized),I Indian/Native American tribal government (federally recognized)
+J,Tribal governments (other),J Indian/Native American tribal government (other than federally recognized)
+K,Tribal organizations,K Indian/Native American tribally designated organization
+L,Housing authorities,L public/Indian housing authority
+M,Nonprofits,M nonprofit with 501(c)(3) status (other than higher education)
+N,Nonprofits without 501(c)(3) status,N nonprofit without 501(c)(3) status
+O,Private universities,O private institution of higher education
+P,Individuals,P individual
+Q,For-profit organizations,Q for-profit organization (other than small business)
+R,Small businesses,R small business
+S,Hispanic-serving institutions,S Hispanic-serving institution
+T,Historically Black colleges and universities,T historically Black college or university
+U,Tribal colleges and universities,U tribally controlled college or university
+V,Alaska Native and Native Hawaiian serving institutions,V
+W,Non-U.S. entities,W non-domestic entity
+X,Other recipients,X other

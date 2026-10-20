@@ -1,0 +1,10 @@
+code,label,source
+CORPORATE NOT TAX EXEMPT,Corporation (not tax-exempt),FPDS organizational_type
+CORPORATE TAX EXEMPT,Corporation (tax-exempt),FPDS organizational_type
+PARTNERSHIP,Partnership,FPDS organizational_type
+SOLE PROPRIETORSHIP,Sole proprietorship,FPDS organizational_type
+US GOVERNMENT ENTITY,U.S. government entity,FPDS organizational_type
+INTERNATIONAL ORG,International organization,FPDS organizational_type
+FOREIGN GOVERNMENT,Foreign government,FPDS organizational_type
+OTHER,Other,FPDS organizational_type
+Not reported,Not reported,Justice Connection (NULL value)
